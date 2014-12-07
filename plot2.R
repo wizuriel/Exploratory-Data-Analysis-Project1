@@ -20,5 +20,5 @@ df$datetime <- as.POSIXct(paste(as.Date(df$Date), df$Time))
 
 ## Ploting ####
 plot(df$datetime, df$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
-dev.copy(png, file="plot1.png", height=480, width=480)
+dev.copy(png, file="plot2.png", height=480, width=480)
 dev.off()
